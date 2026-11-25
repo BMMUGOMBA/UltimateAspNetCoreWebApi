@@ -1,0 +1,25 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Tt]est[Rr]esult*/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local configuration
+appsettings.Local.json
+
+# Certificates and private keys
+*.pfx
+*.pem
+*.key
+
+# Database files
+*.mdf
+*.ldf
